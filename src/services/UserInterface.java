@@ -32,6 +32,7 @@ public class UserInterface {
                 }
                 case "/stop" -> {
                     System.out.println("Состояние счётчика: " + userInterface.counter.getCount());
+                    System.out.println("Завершение работы приложения.");
                     return;
                 }
                 case "/reset" -> {
