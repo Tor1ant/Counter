@@ -16,7 +16,7 @@ public class CountStorage {
                 }
             }
         } catch (IOException ioException) {
-            System.out.println("файл с сохранения записей не найден");
+            System.out.println("файл сохранения записей не найден");
         }
         System.out.println("Загрузка состояния счётчика произведена.");
         System.out.println("Приложение запущено." + "\n");
